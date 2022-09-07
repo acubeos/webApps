@@ -752,4 +752,7 @@ a {
     .section-five {
         height: 3350px;
     }
+    .second-section {
+        margin-left: unset;
+    }
 }
