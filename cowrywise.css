@@ -684,6 +684,9 @@ a {
     .sec5-card {
         margin-top: 20px;
     }
+    .sec5-a {
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 580px) {
@@ -729,30 +732,31 @@ a {
         font-size: 14px;
         font-weight: 500;
     }
-    .card-subtitle {
-        display: block;
-    }
 }
 
 @media only screen and (max-width: 480px) {
     .input-form {
         position: unset;
         padding: 12px;
+        width: unset;
     }
     .form-button {
         position: unset;
         font-weight: 600;
     }
-    .card-subtitle {
-        display: inline-block;
-    }
     .sec2-card-img2 {
-        height: 480px;
+        height: 320px;
+    }
+    .sec2-card {
+        height: 650px;
     }
     .section-five {
-        height: 3350px;
+        height: 3500px;
     }
     .second-section {
         margin-left: unset;
+    }
+    .email-card {
+        height: 350px;
     }
 }
